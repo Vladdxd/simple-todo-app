@@ -23,6 +23,7 @@ const data = [
 const Home = () => {
     const [todos, changeTodo, removeTodo, addTodo] = useTodos(data)
 
+    console.log(todos);
     return (
         <div className="max-w-md mx-auto">
             <h1 className="text-2xl font-bold mb-6 text-center">Simple todo list </h1>
